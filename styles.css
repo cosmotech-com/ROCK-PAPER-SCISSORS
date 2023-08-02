@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+button{
+    border: 4px solid black;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.container{
+    max-width: 420px;
+    height: 100vh;
+    max-height: 745px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+}
+
+#rounds{
+   text-align: center;
+   border: 5px solid black;
+   border-radius: 20px;
+}
+
+#rounds img{
+    width: 30%;
+}
+
+#group-btn{
+    display: flex;
+    width: 100%;
+}
+
+#group-btn > button > img{
+    width: 100%;
+}
+
+#new-game{
+    display: flex;
+    justify-content: center;
+}
+
+#new-game > button{
+    border-radius: 5px;
+}
